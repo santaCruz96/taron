@@ -50,7 +50,7 @@ function HostsSection({ name }) {
 
         const triggerConfig = {
             trigger: headerRef.current,
-            start: isMobile ? 'top 65%' :'top-=30% 45%', 
+            start: isMobile ? 'top 65%' : 'top-=30% 45%', 
             // markers: true,
         }
 

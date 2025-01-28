@@ -155,7 +155,7 @@ function Menu() {
                 <S.ContactSection className="contact-section">
                     <S.ContactHeader>Contact us</S.ContactHeader>
                     <S.ContactItem
-                        href="https://t.me/+17207550321"
+                        href="https://t.me/+13104080278"
                         target="_blank"
                         onClick={() => {
                             window.gtag('event', 'click', { 'event_category': 'button', 'event_action': 'tg', })

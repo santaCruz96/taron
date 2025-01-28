@@ -93,7 +93,7 @@ function Footer({ name }) {
             </S.FooterHeader>
             <S.ContactsBlock ref={buttonsRef}>
                 <S.ContactButton
-                    href="https://t.me/+17207550321"
+                    href="https://t.me/+13104080278"
                     target="_blank"
                     onClick={() => {
                         window.gtag('event', 'click', { 'event_category': 'button', 'event_action': 'tg', })
