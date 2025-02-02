@@ -17,7 +17,7 @@ export const OriginsSection = styled.section`
         padding: 60px 20px;
     }
 
-    @media (max-width: 4800px) {
+    @media (max-width: 480px) {
         padding: 40px 20px;
         gap: 20px;
     }
@@ -66,7 +66,7 @@ export const OriginsText = styled.p`
         font-size: 16px;
     }
 
-    @media (max-width: 4800px) {
+    @media (max-width: 480px) {
         width: 100%;
         font-size: 12px;
     }
