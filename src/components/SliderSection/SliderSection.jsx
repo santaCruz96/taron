@@ -76,11 +76,11 @@ function SliderSection({
             start: 'top 55%', 
             onEnter: () => {
                 if (swiperRef.current && swiperRef.current.autoplay) {
-                    swiperRef.current.autoplay.start();
+                    swiperRef.current.autoplay.start()
                 }
             },
             // markers: true,
-        };
+        }
 
         gsap.fromTo(
             headerChars,

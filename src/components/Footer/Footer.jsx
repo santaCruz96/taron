@@ -3,6 +3,7 @@ import { useScroll } from '../contexts/ScrollProvider';
 import Splitting from 'splitting';
 import { gsap } from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import { useMediaQuery } from "react-responsive";
 import Logo from './Logo';
 import * as S from './style';
 
@@ -14,6 +15,8 @@ function Footer({ name }) {
     const logoRef = useRef(null)
     const { scrollToSection } = useScroll()
     const { registerSection } = useScroll()
+
+    const isTwoLine = useMediaQuery({ query: "(max-width: 384px)" })
 
     useEffect(() => {
         setTimeout(() => {
@@ -51,7 +54,7 @@ function Footer({ name }) {
         gsap.fromTo(
             headerChars,
             {
-                y: '100%', 
+                y: isTwoLine ? '200%' : '100%', 
             },
             {
                 y: '0%', 
@@ -84,7 +87,7 @@ function Footer({ name }) {
                 },
             }
         )
-    }, [])
+    }, [isTwoLine])
 
     return (
         <S.Footer>

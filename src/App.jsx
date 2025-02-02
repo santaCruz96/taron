@@ -10,6 +10,8 @@ import SliderSection from './components/SliderSection/SliderSection';
 import InterludeSection from './components/InterludeSection/InterludeSection';
 import ReviewsSection from './components/ReviewsSection/ReviewsSection';
 import HostsSection from './components/HostsSection/HostsSection';
+import AbbreviationSection from './components/AbbreviationSection/AbbreviationSection';
+import OriginsSection from './components/OriginsSection/OriginsSection';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -43,6 +45,8 @@ function App() {
           third={true}
         />
         <HostsSection name={'hosts'} />
+        <AbbreviationSection/>
+        <OriginsSection/>
         <Footer name={'footer'} />
       </Lenis>
       </MenuProvider>
